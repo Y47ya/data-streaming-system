@@ -1,32 +1,55 @@
-### IntelliJ IDEA ###
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
+# =========================
+# Eclipse (optional support)
+# =========================
 .classpath
-.factorypath
 .project
-.settings
+.settings/
+bin/
+.factorypath
+.apt_generated
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+# =========================
+# VS Code
+# =========================
 .vscode/
 
-### Mac OS ###
+# =========================
+# Mac OS
+# =========================
 .DS_Store
 
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Data files (VERY IMPORTANT for your project)
+# =========================
 data/
-data/
+*.csv
+*.parquet
+
+# =========================
+# Environment files (if used)
+# =========================
+.env
+venv/
+.env/
